@@ -1,0 +1,2 @@
+# cloudspot
+Cloud Core HotSpot
