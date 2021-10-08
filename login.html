@@ -24,7 +24,7 @@
 
 		<script type="text/javascript" src="/md5.js"></script>
 		<script type="text/javascript">
-		<!--
+		//<!--
 		    function doLogin() {
 			document.sendin.username.value = document.login.username.value;
 			document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
@@ -49,7 +49,7 @@
 
 		            $(if trial == 'yes')
 		                <p class="mb-0">
-		                    Free trial available, <a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">click here</a>.
+		                    Free Trial, <a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">click here</a>.
 		                </p>
 		            $(endif)
 		        </div>
@@ -84,7 +84,7 @@
 </section>
 
 <script type="text/javascript">
-<!--
+//<!--
   document.login.username.focus();
 //-->
 </script>
